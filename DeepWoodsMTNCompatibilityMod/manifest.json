@@ -1,0 +1,17 @@
+﻿{
+  "Name": "DeepWoodsMTNCompatibilityMod",
+  "Author": "Max Vollmer",
+  "Version": "1.0.0",
+  "Description": "Patches MTN to make DeepWoods work in multiplayer. Only needed if you want to use MTN and DeepWoods together in a multiplayer game.",
+  "UniqueID": "maxvollmer.deepwoodsmtncompatibilitymod",
+  "EntryDll": "DeepWoodsMTNCompatibilityMod.dll",
+  "MinimumApiVersion": "2.7",
+  "Dependencies": [
+    {
+      "UniqueID": "maxvollmer.deepwoodsmod"
+    },
+    {
+      "UniqueID": "SgtPickles.MTN"
+    }
+  ]
+}
